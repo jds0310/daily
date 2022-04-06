@@ -1,0 +1,54 @@
+.container{
+    width:700px;
+    margin: 10px auto;
+    text-align: center;
+    
+    background-color: bisque;
+}
+.titlebox{
+    padding:20px;
+}
+.titlebox h1{
+    margin:0;
+}
+.scorebox{
+    display: flex;
+    justify-content: space-around;
+}
+.scorebox p{
+    font-weight: bold;
+}
+.textbox p{
+    font-size:24px;
+    font-weight: bold;
+    color:blue;
+}
+.imgbox{
+    display:flex;
+    justify-content: space-around;
+}
+.imgbox div{
+    width:200px;
+    height:200px;
+}
+
+.imgtext{
+    display:flex;
+    justify-content: space-around;
+    padding-left:10px;
+}
+
+.buttonbox button{
+    width: 100px;
+    padding: 5px 0;
+    margin: 20px 5px;
+}
+
+.reload{
+    text-align: center;
+    margin-bottom:20px;
+}
+.reload button{
+    padding: 5px;
+    width: 100px;
+}
